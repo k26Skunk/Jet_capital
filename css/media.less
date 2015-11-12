@@ -1,0 +1,271 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.search #search_form {
+		right: 100px;
+	}
+
+	.search input {
+		width: 598px;
+	}
+
+	header {
+		background: url(../img/header/bg2.jpg) no-repeat scroll 45% center / cover;
+	}
+
+	h1 {
+		margin-top: 80px;
+	}
+
+	.button_bg {
+		margin-top: 30px;
+	}
+
+	.top-mnu li {
+		margin: 0;
+	}
+
+	.top-mnu li a {
+	    padding: 5px 8px;
+	    font-size: 18px;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.navbar-toggle {
+		display: inline-block;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	#advantage,
+	#team,
+	#contacts,
+	footer {
+		text-align: center;
+		padding: 30px 0;
+	}
+	
+	#advantage {
+		p {
+			margin: 40px 0;
+		}
+		img {
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+	}
+
+	#team {
+		p {
+			margin: 40px 0;
+		}
+		img {
+			margin: 0 auto;
+			margin-bottom: 50px;
+		}
+	}
+
+	.subscribe_form {
+		padding: 20px 10px;
+
+		.form_button {
+			margin-top: 20px;
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	input[name="subscribe-email"] {
+		padding: 0px 5px;
+		text-align: center;
+		font-size: 16px;
+	}
+
+	header {
+		background: url(../img/header/bg2.jpg) no-repeat scroll 70% center / cover;
+	}
+
+	#contacts h3 {
+		margin: 30px 0 20px;
+	}
+
+	#contacts .company_link a {
+		min-width: 80px;
+		display: inline-block;
+		margin-bottom: 15px;
+		&:before {
+			top: 11px;
+		}
+	}
+
+	#contacts .con_inf p {
+		padding-left: 0;
+		margin-top: 40px;
+	}
+
+	#contacts .con_inf p:nth-child(2)::before {
+		top: -20px;
+		left: 49%;
+	}
+
+	#contacts .con_inf p:nth-child(3)::before {
+		top: -20px;
+		left: 49%;
+	}
+
+	#contacts .con_inf p:nth-child(4)::before {
+		top: -20px;
+		left: 49%;
+	}
+
+	.header_descr .more {
+		padding: 15px 60px;
+		
+		font-size: 20px;
+	}
+
+	.header_descr .button_bg {
+		margin-bottom: 30px;
+		padding: 7px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+		#contacts .con_inf p:nth-child(2)::before {
+		top: -20px;
+		left: 48%;
+	}
+
+	#contacts .con_inf p:nth-child(3)::before {
+		top: -20px;
+		left: 48%;
+	}
+
+	#contacts .con_inf p:nth-child(4)::before {
+		top: -20px;
+		left: 48%;
+	}
+
+	h1 {
+		font-size: 38px;
+		line-height: 38px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.header_descr p {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+
+	.modal_search {
+		input {
+			font-size: 12px;
+		}
+		input[type="submit"] {
+			font-size: 12px;
+		}
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	
+	footer {
+		.col-sm-2 p {
+			text-align: right;
+		}
+	}
+
+	.cont_desc {
+		text-align: center;
+
+		p {
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	
+
+	h1 {
+		margin-top: 80px;
+	}
+
+	.arrow_bottom {
+		margin-top: 50px;
+	}
+
+	.search #search_form {
+		right: 65px;
+	}
+
+	.search input {
+		width: 470px;
+	}
+
+	header {
+		background: url(../img/header/bg2.jpg) no-repeat scroll 65% center / cover;
+	}
+}
+
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.top-mnu {
+		display: block!important;
+	}
+}
